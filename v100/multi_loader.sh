@@ -1,4 +1,4 @@
-cd /home/shenghuahe/segmentation_models/phase_cells
+cd /home/shenghuahe/image_translation/trans/v100
 python2 job_parser.py 'multi_GPU.sh'
 for i in $(seq 0 3)
 do
