@@ -1,2 +1,2 @@
-python phase_fl_train.py --net_type Unet --backbone efficientnetb3 --pre_train True --batch_size 4 --dim 800 --epoch 60 --lr 5e-4 --train 1100 --filtered True --gpu 1 --loss wmse --act_fun sigmoid --channels fl2 --dataset cell_cycle_1984_v2 --ext False --gt_weight 1
+python ../train.py --dataroot ../../data/datasets/life_cycle --checkpoints_dir ../../data/checkpoints --name life_dead_1984_1024 --CUT_mode CUT --load_size 1984 --crop_size 1024 --batch_size 1 --gpu_ids 1 --n_epochs 1 --display_id 0
 
