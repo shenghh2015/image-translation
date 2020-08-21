@@ -1,1 +1,1 @@
-python ../train.py --dataroot ../../data/datasets/live_dead --checkpoints_dir ../../data/checkpoints --name life_dead_496_400 --CUT_mode CUT --load_size 496 --crop_size 400 --batch_size 1 --gpu_ids 1 --n_epochs 1 --display_id 0
+python ../train.py --dataroot ../../data/datasets/life_cycle --checkpoints_dir ../../data/checkpoints --name life_dead_496_400 --CUT_mode CUT --load_size 496 --crop_size 400 --batch_size 1 --gpu_ids 1 --n_epochs 1 --display_id 0

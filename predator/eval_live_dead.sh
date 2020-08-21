@@ -1,0 +1,1 @@
+python ../test.py --dataroot ../../data/datasets/live_dead --checkpoints_dir ../../data/checkpoints --results_dir ../../data/results/ --name life_dead_208_160 --CUT_mode CUT --phase test --load_size 208 --crop_size 208 --epoch latest  --gpu_ids 2
