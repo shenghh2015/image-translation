@@ -1,0 +1,1 @@
+python train.py --dataroot ./datasets/bacterial --name bacterial_CUT --CUT_mode CUT --load_size 256 --crop_size 256 --batch_size 5 --gpu_ids 4

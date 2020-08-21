@@ -1,0 +1,1 @@
+python test.py --dataroot ./datasets/bacterial --name bacterial_CUT --CUT_mode CUT --phase test --load_size 256 --crop_size 256  --epoch 65

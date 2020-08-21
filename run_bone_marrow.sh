@@ -1,0 +1,1 @@
+python train.py --dataroot ./datasets/bone_marrow --name bone_marrow_CUT_80 --CUT_mode CUT --load_size 600 --crop_size 80 --batch_size 16 --gpu_ids 6 --n_epochs 1000

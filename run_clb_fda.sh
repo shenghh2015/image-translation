@@ -1,0 +1,1 @@
+python train.py --dataroot ./datasets/clb_fda --name clb_fda_CUT --CUT_mode CUT --load_size 109 --crop_size 109 --batch_size 24 --gpu_ids 1 --n_epochs 400

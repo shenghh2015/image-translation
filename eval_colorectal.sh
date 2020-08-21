@@ -1,0 +1,1 @@
+python test.py --dataroot ./datasets/colorectal2 --name colorectal2_CUT --CUT_mode CUT --phase test --load_size 500 --crop_size 500 --epoch 110

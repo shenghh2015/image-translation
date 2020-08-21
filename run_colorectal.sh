@@ -1,0 +1,1 @@
+python train.py --dataroot ./datasets/colorectal2 --name colorectal2_CUT_256 --CUT_mode CUT --load_size 500 --crop_size 256 --batch_size 5 --gpu_ids 4 --n_epochs 1000

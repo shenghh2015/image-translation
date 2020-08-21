@@ -1,0 +1,1 @@
+python test.py --dataroot ./datasets/clb_fda --name clb_fda_CUT --CUT_mode CUT --phase val --load_size 109 --crop_size 109 --num_test 200000  --gpu_ids 0
